@@ -45,7 +45,10 @@ class ATM:
 atm = ATM(balance=5000,pin=2525)                
 
 if atm.verify_pin ():
+<br>
     amount = int(input("Enter the amount :"))
+<br>   
     atm.withdrawal(amount)    
+<br>   
     atm.show()
 
